@@ -233,8 +233,15 @@ nav {
   -moz-border-radius: 7px 7px 7px 7px;
   -webkit-border: 7px 7px 7px 7px;
 }
+
+.sidebar_pic { 
+  float: right;
+  width: 200px;
+  padding: 0px 40px;
+  margin: 0 0 12px 0;
+}
   
-.sidebar h3, .content h1 { 
+.sidebar h3, .content h1, .content_partial h1 { 
   padding: 0 15px 20px 0;
   font: 250% 'News Cycle', arial, sans-serif;
   text-shadow:  #FFF 1px 1px;
@@ -267,17 +274,37 @@ nav {
 
 .content { 
   text-align: left;
-  width: 670px;
+  width: 950px;
   margin: 25px 0 0 0;
   float: left;
   font-size: 120%;
 }
-  
+
 .content ul { 
   margin: 2px 0 22px 0px;
 }
 
 .content ul li, .sidebar ul li { 
+  list-style-type: none;
+  background: url(../images/bullet.png) no-repeat;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 28px;
+  line-height: 1.5em;
+}
+
+.content_partial { 
+  text-align: left;
+  width: 670px;
+  margin: 25px 0 0 0;
+  float: left;
+  font-size: 120%;
+}
+
+.content_partial ul { 
+  margin: 2px 0 22px 0px;
+}
+
+.content_partial ul li, .sidebar ul li { 
   list-style-type: none;
   background: url(../images/bullet.png) no-repeat;
   margin: 0 0 0 0; 
